@@ -1,0 +1,16 @@
+{
+ "name": "input-validation-engine",
+ "version": "1.0.0",
+ "description": "Custom composable validation engine dependency-free",
+ "main": "dist/index.js",
+ "types": "dist/index.d.ts",
+ "scripts": {
+  "build": "tsc",
+  "test": "ts-node tests/rules.test.ts && ts-node tests/engine.test.ts"
+ },
+ "devDependencies": {
+  "@types/node": "^26.0.1",
+  "ts-node": "^10.9.2",
+  "typescript": "^5.0.0"
+ }
+}
