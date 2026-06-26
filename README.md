@@ -6,7 +6,10 @@ This is a small tool that checks if information typed into a form is correct (li
 
 ## Installation
 
-Copy the `src` folder into your project. Make sure you have Node.js and TypeScript. Then import it:
+git clone <git@github.com:amosotieno-254/validator-engine.git>
+cd input-validation-engine
+npm install
+
 
 ```typescript
 import { validate, rules } from "./src/index";
